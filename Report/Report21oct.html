@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Automation Testing Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-10-21 09:31:16</p>
-<p class='attribute'><strong>Duration:</strong> 0:02:21.793931</p>
-<p class='attribute'><strong>Status:</strong> Pass 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-10-21 10:23:14</p>
+<p class='attribute'><strong>Duration:</strong> 0:05:42.124271</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
 
 <p class='description'><b></b></p>
 </div>
@@ -222,7 +222,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>Test3_Comment: Test Case Comment</td>
+    <td>Test1_Login: Test Case Login</td>
     <td>2</td>
     <td>2</td>
     <td>0</td>
@@ -231,7 +231,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_Comment_001: Kumparan Users Comment - Not Log In</div></td>
+    <td class='none'><div class='testcase'>test_Login_001: Kumparan Login with Facebook - Invalid Password</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -245,10 +245,9 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: https://kumparan.com/@kumparanbola/jose-mourinho-soal-luapan-emosinya-sudah-lupakan-saja-1540081840549558604
-https://kumparan.com/@kumparanbola/jose-mourinho-soal-luapan-emosinya-sudah-lupakan-saja-1540081840549558604
-Login
-__main__.Test3_Comment.test_Comment_001: 40.127
+pt1.1: Silakan masukkan kembali sandi Anda
+Kata sandi yang Anda masukkan salah. Lupa Kata Sandi?
+__main__.Test1_Login.test_Login_001: 65.502
 
 
         </pre>
@@ -259,7 +258,7 @@ __main__.Test3_Comment.test_Comment_001: 40.127
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_Comment_002: Kumparan Users Comment - Valid</div></td>
+    <td class='none'><div class='testcase'>test_Login_002: Kumparan Login with Google - Valid data</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -273,11 +272,145 @@ __main__.Test3_Comment.test_Comment_001: 40.127
         </div>
         <pre>
         
-pt1.2: Damar Mustiko Aji
-Minggu, 21 Oktober 2018 - 09:33
+pt1.2: Platform Media Berita Kolaboratif, Terkini Indonesia Hari Ini - Kumparan.com
+__main__.Test1_Login.test_Login_002: 25.071
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>Test2_News: Test Case News</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_News_001: Kumparan Users see news - Valid URL</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: https://kumparan.com/@kumparannews/gerindra-yakin-koalisi-prabowo-raih-300-kursi-rakyat-berpihak-ke-kami-1540087735840978934
+RECOMMENDED PROFILES
+Previous
+Honor Indonesia
+Follow
+Suryo Nugroho
+Follow
+Victor Kamang
+Follow
+Next
+__main__.Test2_News.test_News_001: 7.818
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_News_002: Kumparan Users see news - Invalid URL</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: https://kumparan.com/@kumparannews/gerindra-yakin-koalisi-prabowo-raih-300-kursi-rakyat-berpihak-ke-kami-1540087735840978934123x
+Story tidak ditemukan
+__main__.Test2_News.test_News_002: 18.532
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>Test3_Comment: Test Case Comment</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',2)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_Comment_001: Kumparan Users Comment - Not Log In</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: https://kumparan.com/@kumparanoto/mobil-porsche-berkarat-dilelang-rp-2-3-miliar-1540087735840978936
+https://kumparan.com/@kumparanoto/mobil-porsche-berkarat-dilelang-rp-2-3-miliar-1540087735840978936
+Login
+__main__.Test3_Comment.test_Comment_001: 19.331
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_Comment_002: Kumparan Users Comment - Valid</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.2')" >
+        pass</a>
+
+    <div id='div_pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.2: Damar Mustiko Aji
+Minggu, 21 Oktober 2018 - 10:28
 News menarik
  0|Reply
-__main__.Test3_Comment.test_Comment_002: 45.948
+__main__.Test3_Comment.test_Comment_002: 49.691
 
 
         </pre>
@@ -289,8 +422,8 @@ __main__.Test3_Comment.test_Comment_002: 45.948
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>2</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>

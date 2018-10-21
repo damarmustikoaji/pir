@@ -30,3 +30,4 @@
 
 ### Test Case
 ![Capture damar - kumparan test case](Report/testcase.png)
+![Capture damar - kumparan report](Report/reporthtml.png)
