@@ -51,7 +51,7 @@ class Test1_Login(unittest.TestCase):#hapus unittest.TestCase to skip
         #driver, logging = NotifPopover(self.driver, "TIDAK")
         self.startTime = time.time()
         #driver, logging, status = LoginRegister(self.driver)
-        driver, logging, status = loginGPlus_Valid(self.driver, "damarresin", "orangsukses")
+        driver, logging, status = loginGPlus_Valid(self.driver, "wondernautest01", "Wonderlabs123")
         print logging
         t = time.time() - self.startTime
         print "%s: %.3f" % (self.id(), t)
@@ -124,7 +124,7 @@ class Test3_Comment(unittest.TestCase):
         #driver, logging = NotifPopover(self.driver, "TIDAK")
         self.startTime = time.time()
         #driver, logging, status = LoginRegister(self.driver)
-        driver, logging, status = loginGPlus_Valid(self.driver, "damarresin", "orangsukses")
+        driver, logging, status = loginGPlus_Valid(self.driver, "wondernautest01", "Wonderlabs123")
         #driver, logging, status = News(self.driver)
         driver, logging, status = Comment(self.driver, "News menarik")
         print logging
