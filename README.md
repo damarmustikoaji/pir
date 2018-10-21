@@ -1,9 +1,15 @@
 ### Automation Testing Kumparan.com apps
 
 ### Requirements
-- EasyProcess==0.2.3
-- PyVirtualDisplay==0.2.1
-- selenium==3.9.0
+Package          Version
+---------------- -------
+EasyProcess      0.2.3  
+pip              18.1   
+PyVirtualDisplay 0.2.1  
+selenium         3.14.1
+setuptools       40.4.3
+urllib3          1.24   
+wheel            0.32.2 
 
 ### Arguments
 - $: python test.py [url] [browser] > report.html
@@ -26,7 +32,7 @@
 6. Buat virtualenv folder $ virtualenv venv
 7. Aktifkan env $ source venv/bin/activate
 8. Install requirements $ pip install -r requirements.txt
-9. Run project $ python test.py google https://kumparan.com Chrome > report.html
+9. Run project $ python test.py https://kumparan.com Chrome > report.html
 
 ### Test Case
 ![Capture damar - kumparan test case](Report/testcase.png)
