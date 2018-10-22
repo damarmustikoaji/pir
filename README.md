@@ -18,12 +18,12 @@
 1. Download chromedriver
 2. Buat directory "driver" diluar directory project "../driver"
 3. Masukkan file chromedriver ke dalam folder tersebut
-4. Install pip python $ sudo easy_install pip
-5. Install virtualenv $ sudo pip install virtualenv
-6. Buat virtualenv folder $ virtualenv venv
-7. Aktifkan env $ source venv/bin/activate
-8. Install requirements $ pip install -r requirements.txt
-9. Run project $ python test.py https://kumparan.com Chrome > report.html
+- $ sudo easy_install pip
+- $ sudo pip install virtualenv
+- $ virtualenv venv
+- $ source venv/bin/activate
+- $ pip install -r requirements.txt
+- $ python test.py https://kumparan.com/ Chrome > report.html
 
 #### Note :
 - browser = Chrome / HEADLESS / VM / Default: Chrome
