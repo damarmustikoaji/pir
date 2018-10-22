@@ -12,17 +12,18 @@
 ### Chrome Driver
 - ChromeDriver 2.43
 - directory "../driver"
-- download https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 ### How to use
-1. Download chromedriver
+1. Download chromedriver https://sites.google.com/a/chromium.org/chromedriver/downloads
 2. Buat directory "driver" diluar directory project "../driver"
 3. Masukkan file chromedriver ke dalam folder tersebut
+4. Install requirements
 - $ sudo easy_install pip
 - $ sudo pip install virtualenv
 - $ virtualenv venv
 - $ source venv/bin/activate
 - $ pip install -r requirements.txt
+5. Run automation
 - $ python test.py https://kumparan.com/ Chrome > report.html
 
 #### Note :
@@ -32,3 +33,4 @@
 ### Test Case
 ![Capture damar - kumparan test case](Report/testcase.png)
 ![Capture damar - kumparan report](Report/reporthtml.png)
+![Capture damar - kumparan report](Report/runautomation.gif)
